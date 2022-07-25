@@ -53,14 +53,6 @@ public class No_guessing_game {
         b = g.isCorrectNumber();
         }
         
-        int round = 3;
-        while(round>0) {
-        	g.takeUserInput();
-        	g.isCorrectNumber();
-        	round--;
-        }
-        System.out.println("Complete 3 rounds");
-
     }
 }
 
